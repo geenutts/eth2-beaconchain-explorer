@@ -70,7 +70,7 @@ func AdvertiseWithUsPost(w http.ResponseWriter, r *http.Request) {
 	comments := r.FormValue("comments")
 
 	msg := fmt.Sprintf(`New ad inquiry:
-								Name: %s
+								Name:gee %s
 								Email: %s
 								Url: %s
 								Company: %s
